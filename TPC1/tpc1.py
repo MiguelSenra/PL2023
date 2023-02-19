@@ -5,7 +5,7 @@ import numpy as np
 # não ser muito relevante pelo que estaríamos a adicionar mais um valor desnecsserário por cada campo. Analisando agora as operações que esperámos
 # definir, podemos verificar que devido aos seguintes factos a única forma de determinar todos os valores que pretendemos será percorrer todos os dados. Desta
 # forma, concluimos que será necessário um tempo linear para alcançar o nosso objetivo pelo que não achei que nenhuma estrutura fosse melhor que uma simples
-# lista pelo que decidi utilizar a mesma.
+# lista pelo que decidi utilizar a mesma. Em termos de validação de dados optei por não remover nenhum.
 
 
 def ler():
@@ -77,6 +77,11 @@ def distporIdade(lista):
     dictionary1 = sorted(res.items())
     return dict(dictionary1)
 
+# A distribuição do colesterol foi muito semelhante às outras duas. No entanto, neste, tal como na distribuição em função da idade foi necessário considerar
+# outro parâmetro, a existência de níveis de colesterol que não corresponde ao de qualuqer pessoa presente no estudo. No entanto, achei por bem acresccentá-
+# -los de modo a não deixar dúvidas a quem visualiza a distribuição. Isto porque caso não tivesse colocado aqueles valores, os leitores poderiam interpretar
+# que aquele intervalo de colesterol não foi alvo do nosso estudo, o que seria mentira.
+
 
 def distporColesterol(lista):
     res = dict()
@@ -103,14 +108,13 @@ def distporColesterol(lista):
         key = '['+str(i)+'-'+str(i+9)+']'
         if key not in res:
             res[key] = 0
-    
 
-
-    dictionary1 = sorted(res.items(), key=lambda x: compare (x[0]))
+    dictionary1 = sorted(res.items(), key=lambda x: compare(x[0]))
     return dict(dictionary1)
 
+
 def compare(str):
-    str=str.split("-")[0]
+    str = str.split("-")[0]
     str = str.split("[")[1]
     return int(str)
 
@@ -180,13 +184,24 @@ def main():
     print("-----------------------------")
     printTable(distColesterol)
 
-    y1 = distColesterol.keys()
+    lista = list(distColesterol.keys())
+    y1 = list(map(lambda x: 5+compare(x), lista))
     y2 = distColesterol.values()
+    plt.xticks(y1, rotation=45, ha='right')
+    # plt.yticks(y2)
     plt.bar(y1, y2, color="red")
     plt.xlabel("Valores de Colesterol")
     plt.ylabel("Número de pessoas com a doença")
     plt.title("Distribuição da doença por Idades")
     plt.show()
+
+# Através dos gráficos de barras acima, fica mais fácil de visualizar os valores obtidos e as suas dependências. Quanto ao primeiro gráfico, há uma grande
+# diferença em termos de valores entre os dois géneros pelo que se suspeita que a doença aparecerá com mais facilidade nos homens. Analisando os dois outros
+# gráficos, rapidamente nos apercebemos que estamos aproximadamente perante uma distribuição Normal, onde temos um pico para as idades por volta dos 57 anos
+# e para os níveis de colesterol um valor a rondar os 255. Desta forma, parece que existe uma relação entre a idade, o género e o nível de colesterol e a
+# doença, pelo que estes são fatores de risco para o desenvolvimento desta doença.
+# Por fim, gostaria de referir que uma boa forma de também analisar os dados obtidos seria ter uma noção de percentagem, sendo esta apenas obtida graficamente
+# e através de alguma aproximação pelo que apenas dá para ter uma perceção.
 
 
 main()
