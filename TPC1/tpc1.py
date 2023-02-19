@@ -5,7 +5,7 @@ import numpy as np
 # não ser muito relevante pelo que estaríamos a adicionar mais um valor desnecsserário por cada campo. Analisando agora as operações que esperámos
 # definir, podemos verificar que devido aos seguintes factos a única forma de determinar todos os valores que pretendemos será percorrer todos os dados. Desta
 # forma, concluimos que será necessário um tempo linear para alcançar o nosso objetivo pelo que não achei que nenhuma estrutura fosse melhor que uma simples
-# lista pelo que decidi utilizar a mesma. 
+# lista pelo que decidi utilizar a mesma.
 
 
 def ler():
@@ -25,7 +25,10 @@ def ler():
 
 # Após concluir o armazenamento dos dados, é necessário determinar uma estrutura que consiga guardar as distribuições de forma inteligente. Em primeiro lugar,
 # a distribuição consistirá em guardar os atributos da população de forma a tentar determinar algumas possíveis dependências, e depois associará a cada valor,
-# o número de pessoas que possuem esse mesmo atributo e que possuem a doença. 
+# o número de pessoas que possuem esse mesmo atributo e que possuem a doença. Para este caso concreto, considerando que não é um problema com muitos dados, a
+# procura do mesmos não é muito difícil de realizar manualmente. No entanto, pensando numa expansão dos dados, decidi utilizar um dicionário pelo facto de
+# poder procurar mais facilmente caso pretenda determinar algum valor concreto. Caso contrário, qualquer estrutura seria semelhante pelo facto de ser
+# apenas necessário percorrer todos os valores.
 
 
 def distporsexo(lista):
@@ -43,37 +46,73 @@ def distporsexo(lista):
 
 def distporIdade(lista):
     res = dict()
+    min = 2000
+    max = 0
     for line in lista:
         if line[5]:
             val = line[0]
             resto = val % 10
             if resto < 5:
-                min = val-resto
+                min_intervalo = val-resto
             else:
-                min = val-resto+4+1
-            max = min+4
-            key = '['+str(min)+'-'+str(max)+']'
-            if (key not in res):
-                res[key] = 0
-            res[key] += 1
+                min_intervalo = val-resto+4+1
+            max_intervalo = min_intervalo+4
+
+            if min_intervalo < min:
+                min = min_intervalo
+            if max_intervalo > max:
+                max = max_intervalo
+
+            key = '['+str(min_intervalo)+'-'+str(max_intervalo)+']'
+            if min >= 30:
+                if (key not in res):
+                    res[key] = 0
+                res[key] += 1
+
+    for i in range(min, max, 5):
+        key = '['+str(i)+'-'+str(i+4)+']'
+        if key not in res:
+            res[key] = 0
+
     dictionary1 = sorted(res.items())
     return dict(dictionary1)
 
 
 def distporColesterol(lista):
     res = dict()
+    min = 2000
+    max = 0
     for line in lista:
         if line[5]:
             val = line[3]
             resto = val % 10
-            min = val-resto
-            max = min+9
-            key = '['+str(min)+'-'+str(max)+']'
+            min_intervalo = val-resto
+            max_intervalo = min_intervalo+9
+
+            if min_intervalo < min:
+                min = min_intervalo
+            if max_intervalo > max:
+                max = max_intervalo
+
+            key = '['+str(min_intervalo)+'-'+str(max_intervalo)+']'
             if (key not in res):
                 res[key] = 0
             res[key] += 1
-    dictionary1 = sorted(res.items())
+
+    for i in range(min, max, 10):
+        key = '['+str(i)+'-'+str(i+9)+']'
+        if key not in res:
+            res[key] = 0
+    
+
+
+    dictionary1 = sorted(res.items(), key=lambda x: compare (x[0]))
     return dict(dictionary1)
+
+def compare(str):
+    str=str.split("-")[0]
+    str = str.split("[")[1]
+    return int(str)
 
 
 def printTable(dist):
