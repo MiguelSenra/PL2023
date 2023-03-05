@@ -1,0 +1,234 @@
+[
+ {
+  "pasta": "575",
+  "data": "1894-11-08",
+  "nome": "Aarao Pereira Silva",
+  "pai": "Antonio Pereira Silva",
+  "mae": "Francisca Campos Silva",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "582",
+  "data": "1909-05-12",
+  "nome": "Abel Almeida",
+  "pai": "Antonio Manuel Almeida",
+  "mae": "Teresa Maria Sousa",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "569",
+  "data": "1867-05-23",
+  "nome": "Abel Alves Barroso",
+  "pai": "Antonio Alves Barroso",
+  "mae": "Maria Jose Alvares Barroso",
+  "Observacoes": {
+   "relacoes": [
+    "Bento Alvares Barroso,Tio Paterno.Proc.32057",
+    "Domingos Jose Alvares Barroso,Tio Materno.Proc.32235"
+   ],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "576",
+  "data": "1896-11-28",
+  "nome": "Abel Augusto Oliveira",
+  "pai": "Francisco Jose Oliveira",
+  "mae": "Antonia Rosa Rebelo",
+  "Observacoes": {
+   "relacoes": [
+    "Jose Antonio Oliveira,Irmao.Proc.5020"
+   ],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "579",
+  "data": "1904-05-27",
+  "nome": "Abel Gomes Abreu Reis",
+  "pai": "Antonio Gomes Abreu",
+  "mae": "Ana Sequeira Reis",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "579",
+  "data": "1904-05-21",
+  "nome": "Abel Marques Reis",
+  "pai": "Jose Joaquim Marques Reis",
+  "mae": "Bernardina Dantas",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "578",
+  "data": "1901-11-12",
+  "nome": "Abel Martins Pereira",
+  "pai": "Serafim Martins Pereira",
+  "mae": "Emilia Goncalves",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "572",
+  "data": "1883-02-01",
+  "nome": "Abel Pedro Pereira Freitas",
+  "pai": "Joao Freitas Oliveira",
+  "mae": "Cecilia Rosa Pereira",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "578",
+  "data": "1900-08-30",
+  "nome": "Abel Silva Carvalho",
+  "pai": "Constantino Silva Rego",
+  "mae": "Margarida Rosa Carvalho",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "575",
+  "data": "1894-04-30",
+  "nome": "Abelardo Jose Cerqueira Araujo",
+  "pai": "Jose Maria Araujo",
+  "mae": "Leopoldina Cerqueira Ribeiro Araujo",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "572",
+  "data": "1883-11-24",
+  "nome": "Abilio Acacio Conceicao Guerreiro",
+  "pai": "Jose Antonio Pereira Dantas Guerreiro",
+  "mae": "Maria Rita Pereira Monteiro",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "579",
+  "data": "1902-10-23",
+  "nome": "Abilio Aires Sousa Pereira Guimaraes",
+  "pai": "Joaquim Aires Sousa Pereira Guimaraes",
+  "mae": "Josefa Rosa Gomes",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "571",
+  "data": "1880-01-24",
+  "nome": "Abilio Antonio Alves",
+  "pai": "Joao Francisco Alves",
+  "mae": "Maria Jesus Rocha",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "573",
+  "data": "1889-12-03",
+  "nome": "Abilio Augusto Arantes",
+  "pai": "Sebastiao Arantes",
+  "mae": "Maria Sousa",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "581",
+  "data": "1908-08-11",
+  "nome": "Abilio Augusto Galvao",
+  "pai": "Antonio Augusto Galvao",
+  "mae": "Perpetua Duarte Galvao",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "581",
+  "data": "1908-08-11",
+  "nome": "Abilio Augusto Galvao",
+  "pai": "Antonio Augusto Galvao",
+  "mae": "Perpetua Duarte Galvao",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "569",
+  "data": "1869-12-02",
+  "nome": "Abilio Augusto Santos",
+  "pai": "Jose Joaquim Santos",
+  "mae": "Teresa Jesus",
+  "Observacoes": {
+   "relacoes": [
+    "Antonio Jose Adao,Tio Materno.Proc.12530",
+    "Albino Antonio Ribeiro,Primo Paterno.Proc.12721"
+   ],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "575",
+  "data": "1894-12-04",
+  "nome": "Abilio Fernandes Cunha Leite",
+  "pai": "Joao Fernandes Oliveira Leite",
+  "mae": "Ana Emilia Fernandes",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "579",
+  "data": "1902-11-06",
+  "nome": "Abilio Gomes Correia",
+  "pai": "Manuel Jose Gomes",
+  "mae": "Maria Gomes Correia",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "567",
+  "data": "1862-07-07",
+  "nome": "Abilio Jose Sousa Guimaraes",
+  "pai": "Jose Sousa Guimaraes",
+  "mae": "Flora Emiliana Sousa Guimaraes",
+  "Observacoes": {
+   "relacoes": [
+    "Joaquim Fausto Sousa Guimaraes,Irmao.Proc.13046"
+   ],
+   "outros": [
+    "Baptizado com o nome de JOSE, mudou no Crisma para ABILIO JOSE."
+   ]
+  }
+ }
+]
