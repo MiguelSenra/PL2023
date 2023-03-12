@@ -1,0 +1,23 @@
+[
+ {
+  "Numero": "3162",
+  "Nome": "C\u00e2ndido Fa\u00edsca",
+  "Curso": "Teatro",
+  "Notas_mode": 12,
+  "turma": "12B"
+ },
+ {
+  "Numero": "7777",
+  "Nome": "Cristiano Ronaldo",
+  "Curso": "Desporto",
+  "Notas_mode": 12,
+  "turma": "13D"
+ },
+ {
+  "Numero": "264",
+  "Nome": "Marcelo Sousa",
+  "Curso": "Ci\u00eancia Pol\u00edtica",
+  "Notas_mode": 18,
+  "turma": "14"
+ }
+]
