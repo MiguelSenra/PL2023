@@ -193,7 +193,7 @@ def fich_json(file_name):
         if line == line_ant:
             continue
         # para limitar o número de resultados que é dado no enunciado (20)
-        elif i == 20:
+        elif i == 40:
             break
         res = er.match(line)
         # verificar se a linha fez "match" (não re.match) com a expressão regular contendo por isso dados válidos nos respetivos valores de grupo
@@ -231,6 +231,19 @@ def fich_json(file_name):
         line_ant = line
     # acrescentar a lista de diciconários ao ficheiro dict.json (aberto em cima)
     json.dump(lista, f, indent=' ')
+
+
+i = 0
+fp = open("processos.txt", "r")
+lines = fp.readlines()
+lista = []
+line_ant = ""
+for line in lines:
+    if line == line_ant:
+        continue
+    i += 1
+    line_ant = line
+print(i)
 
 
 distribuicao_anos("processos.txt")

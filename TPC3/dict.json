@@ -230,5 +230,237 @@
     "Baptizado com o nome de JOSE, mudou no Crisma para ABILIO JOSE."
    ]
   }
+ },
+ {
+  "pasta": "580",
+  "data": "1906-06-07",
+  "nome": "Abilio Manuel Goncalves Imperadeiro",
+  "pai": "Manuel Goncalves Imperadeiro",
+  "mae": "Teresa Lourenco",
+  "Observacoes": {
+   "relacoes": [
+    "Manuel Goncalves Imperadeiro Junior,Irmao.Proc.11547"
+   ],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "581",
+  "data": "1909-08-12",
+  "nome": "Abilio Pereira Araujo",
+  "pai": "Joaquim Azevedo Araujo Couto",
+  "mae": "Ermelinda Rosa Pereira Fonseca",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "579",
+  "data": "1902-10-31",
+  "nome": "Abilio Silva Ferreira",
+  "pai": "Jose Joaquim Ferreira",
+  "mae": "Florinda Pinheiro Silva",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "564",
+  "data": "1856-10-27",
+  "nome": "Abilio Teixeira Borges",
+  "pai": "Jose Teixeira",
+  "mae": "Teresa Borges",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "570",
+  "data": "1875-07-02",
+  "nome": "Acacio Antonio Barroso Pereira",
+  "pai": "Francisco Antonio Barroso",
+  "mae": "Albina Candida Morais Carneiro",
+  "Observacoes": {
+   "relacoes": [
+    "Domingos Bernardino Barroso Pereira,Tio Paterno.Proc.34502",
+    "Francisco Bento Morais Caldas,Tio Materno.Proc.15223"
+   ],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "574",
+  "data": "1892-09-13",
+  "nome": "Acacio Antonio Ferreira Barbosa",
+  "pai": "Jose Antonio Aureliano Ferreira Barbosa",
+  "mae": "Leopoldina Ferreira Sousa",
+  "Observacoes": {
+   "relacoes": [
+    "Aureliano Ferreira Barbosa,Irmao.Proc.13576"
+   ],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "307",
+  "data": "1733-11-22",
+  "nome": "Acacio Jose Carvalho",
+  "pai": "Bento Carvalho",
+  "mae": "Josefa Maria",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "357",
+  "data": "1778-07-26",
+  "nome": "Adao Jose Nunes Azevedo",
+  "pai": "Domingos Nunes",
+  "mae": "Mariana Nunes Azevedo",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "581",
+  "data": "1909-05-25",
+  "nome": "Adao Moura",
+  "pai": "Antonio Jose Moura",
+  "mae": "Amelia Mendes Carvalho",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "23",
+  "data": "1691-06-06",
+  "nome": "Adao Pereira",
+  "pai": "Joao Pereira",
+  "mae": "Bernarda Francisca",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "277",
+  "data": "1730-11-12",
+  "nome": "Adao Rodrigues Vale",
+  "pai": "Jose Rodrigues Vale",
+  "mae": "Ana Ferreira",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": [
+    "Joao Jose,Irmao.",
+    "42, fls."
+   ]
+  }
+ },
+ {
+  "pasta": "578",
+  "data": "1899-12-09",
+  "nome": "Adelino Anselmo Sousa Matos",
+  "pai": "Jose Luis Matos",
+  "mae": "Maria Teresa Sousa",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "569",
+  "data": "1869-04-19",
+  "nome": "Adelino Antonio Alves Coelho",
+  "pai": "Jose Antonio Coelho",
+  "mae": "Maria Joana Alves Vieira Silva",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "577",
+  "data": "1898-11-18",
+  "nome": "Adelino Antonio Alves Dias",
+  "pai": "Antonio Manuel Alves Dias",
+  "mae": "Custodia Maria Silva",
+  "Observacoes": {
+   "relacoes": [
+    "Albino Jose Alves Dias,Irmao.Proc.13333"
+   ],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "571",
+  "data": "1880-07-30",
+  "nome": "Adelino Brito Ferreira",
+  "pai": "Bernardo Jose Ferreira",
+  "mae": "Rosa Barbosa Peixoto",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "576",
+  "data": "1896-11-26",
+  "nome": "Adelino Ferreira Costa",
+  "pai": "Manuel Ferreira Costa",
+  "mae": "Maria Cardoso",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "576",
+  "data": "1896-11-30",
+  "nome": "Adelino Goncalves Eiras",
+  "pai": "Manuel Goncalves Eiras",
+  "mae": "Ana Maria Goncalves",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "570",
+  "data": "1877-02-22",
+  "nome": "Adelino Goncalves Pereira",
+  "pai": "Manuel Antonio Goncalves Pereira",
+  "mae": "Maria Afonso",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "582",
+  "data": "1910-05-19",
+  "nome": "Adelino Jose Dias",
+  "pai": "Antonio Jose Dias",
+  "mae": "Teresa Maria Fernandes Amorim",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
+ },
+ {
+  "pasta": "577",
+  "data": "1898-11-21",
+  "nome": "Adelino Jose Goncalves Almeida",
+  "pai": "Joao Manuel Goncalves",
+  "mae": "Maria Jesus Goncalves Almeida",
+  "Observacoes": {
+   "relacoes": [],
+   "outros": []
+  }
  }
 ]
